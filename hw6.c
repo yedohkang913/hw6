@@ -66,6 +66,7 @@ int main() {
 	printf("Just inserted 3, 5, 7\n");
 	
 	print_list(hello);
+	free_list(hello);
 	
 	printf("Just freed hello\n");
 	
